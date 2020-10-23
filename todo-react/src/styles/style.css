@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.todo-container {
+  height: 60vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #00BBF9;
+}
+
+.todo-item {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0.5rem 2rem;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 0.5rem;
+  min-width: 50vw;
+  font-size: 1.3rem;
+}
+
+.todo-list {
+  padding: 2rem 3rem;
+  -webkit-box-shadow: 10px 10px 5px 0px #f15bb5;
+          box-shadow: 10px 10px 5px 0px #f15bb5;
+  background: #e61c7a;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.todo-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.completed {
+  opacity: 0.8;
+}
+
+.completed > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: grey;
+}
+
+.buttons {
+  color: white;
+  font-size: 2rem;
+  padding: .25rem .45rem;
+  border: none;
+  margin-left: 1rem;
+  background: #E61C7A;
+}
+
+.Complete-btn {
+  cursor: pointer;
+}
+
+.fa-check-square {
+  color: #e36414;
+}
+
+.fa-trash-alt {
+  color: #adb5bd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero {
+  width: 100vw;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/space-hero.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/space-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  color: white;
+}
+
+.input-contianer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem;
+}
+
+.input-contianer > input {
+  min-width: 35vw;
+  border: none;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.input-contianer > button {
+  border: none;
+  padding: 0.5rem 0.75rem;
+  background: #d72828;
+  cursor: pointer;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+}
+
+.input-contianer > button:hover {
+  background: #df5353;
+}
+
+.todo-list {
+  padding: 2rem 3rem;
+  -webkit-box-shadow: 10px 10px 5px 0px #f15bb5;
+          box-shadow: 10px 10px 5px 0px #f15bb5;
+  background: #e61c7a;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
